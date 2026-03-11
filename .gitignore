@@ -1,0 +1,30 @@
+# Quartus / Intel FPGA build artifacts
+db/
+incremental_db/
+output_files/
+*.rpt
+*.smsg
+*.qmsg
+*.sld
+*.jdi
+*.sft
+*.vo
+*.vcd
+*.summary
+
+# Simulation outputs
+simulation/modelsim/
+simulation/qsim/
+vwf_sim_transcript
+
+# Waveform and script backups
+*.vwf.vt
+*.bak
+
+# General editor / OS junk
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
